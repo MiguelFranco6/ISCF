@@ -3,7 +3,7 @@ import { ref, get, push } from 'firebase/database';
 import { db } from "../components/firebaseConfig";
 
 function Alarms() {
-  // Defina os estados para colorX, colorY e colorZ
+  
   const [colorX, setColorX] = useState("lightgreen");
   const [colorY, setColorY] = useState("lightgreen");
   const [colorZ, setColorZ] = useState("lightgreen");
